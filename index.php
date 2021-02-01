@@ -23,8 +23,8 @@
 <body>
     <?php for ($i=0; $i < count($database); $i++) { 
         $data = $database[$i]; ?>
-        <?php echo $data['answer']; ?>
-        <?php echo $data['reply']; ?>
+        <p><?php echo $data['answer']; ?></p>
+        <p><?php echo $data['reply']; ?></p>
     <?php } ?>
     
 </body>
